@@ -125,5 +125,16 @@ namespace spaceShip
     }
 
 
+    class Missile : Weapon
+    {
+        public Missile(Vector2 newPos) : base(newPos)
+        {
+            speed = 300;
+            radius = 20;
+            damage = 6;
+        }
+    }
+
+
 
 }
